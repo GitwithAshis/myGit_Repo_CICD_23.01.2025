@@ -1,4 +1,6 @@
-# myGit_Repo_CICD_23.01.2025
+# # myGit_Repo_CICD_23.01.2025
+
+
 ## Collaborative Git Project: Working Together on the Same File
 
 # This project demonstrates how two developers, Dev A and Dev B, can effectively collaborate on the same file using Git and GitHub for version control. By following the steps outlined below, multiple developers can seamlessly contribute to a shared codebase while avoiding conflicts.
@@ -55,7 +57,7 @@ git commit -m "Added second line of code"
 
 # Dev A:
 
-# After editing, Dev A pushes the file to the repository:
+ After editing, Dev A pushes the file to the repository:
 
 git push
 
