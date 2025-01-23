@@ -19,28 +19,28 @@ Both developers push, pull, and sync their changes using Git commands.
 
 # Step 1: Initial Setup (By Dev A)
 
-# 1. Initialize the repository:
+## 1. Initialize the repository:
 
 git init
 
-# 2. Create the file and add initial content:
+## 2. Create the file and add initial content:
 
 File Name: Myjavafile
 
 Dev A writes the first and third lines of Java code.
 
-# 3. Stage and commit the changes:
+## 3. Stage and commit the changes:
 
 git add Myjavafile
 git commit -m "Initial commit with first and third lines of code"
 
-# 4. Push the changes to GitHub:
+## 4. Push the changes to GitHub:
 
 git remote add origin <repository-url>
 git branch -M main
 git push -u origin main
 
-## Step 2: Clone the Repository (By Dev B)
+# Step 2: Clone the Repository (By Dev B)
 
 Dev B clones the repository:
 
@@ -53,27 +53,27 @@ Dev B stages and commits the changes:
 git add Myjavafile
 git commit -m "Added second line of code"
 
-## Step 3: Push and Pull Changes
+# Step 3: Push and Pull Changes
 
-# Dev A:
+## Dev A:
 
  After editing, Dev A pushes the file to the repository:
 
 git push
 
-# Dev B:
+## Dev B:
 
 Dev B pulls the latest changes from the repository before editing further:
 
 git pull
 
-# After resolving any conflicts (if any), Dev B commits their changes and pushes them back:
+## After resolving any conflicts (if any), Dev B commits their changes and pushes them back:
 
 git add Myjavafile
 git commit -m "Resolved conflicts and updated file"
 git push
 
-## Step 4: Syncing Changes
+# Step 4: Syncing Changes
 
 Both Dev A and Dev B continue to:
 
