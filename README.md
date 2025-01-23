@@ -89,31 +89,31 @@ Description
 
 git init
 
-# Initializes a new Git repository.
+## Initializes a new Git repository.
 
-# git clone
+### git clone
 
 Clones an existing repository.
 
-# git add
+### git add
 
 Stages changes for commit.
 
-git commit
+### git commit
 
 Commits staged changes to the repository.
 
-git push
+### git push
 
 Pushes local commits to the remote repository.
 
-git pull
+#### git pull
 
 Pulls the latest changes from the remote repository.
 
 Key Learnings
 
-# Seamless Collaboration: Git allows multiple developers to work on the same file without overwriting each other’s work.
+## Seamless Collaboration: Git allows multiple developers to work on the same file without overwriting each other’s work.
 
 Conflict Management: Conflicts can be resolved easily by pulling the latest changes and making necessary edits.
 
